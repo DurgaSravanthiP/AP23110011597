@@ -1,5 +1,5 @@
 import express from "express";
-import { Log } from "./logging_middleware/logger.js";
+import { Log } from "../logging_middleware/logger.js";
 import axios from "axios";
 
 const app = express();
